@@ -10,7 +10,7 @@ app.use(express.static('server/public'));
 
 app.use(bodyParser.urlencoded({extended: true})); // this creates req.body
 
-app.use('/books', books);
+app.use('/books', books);  // NOTE: client.js request for /books & routes request to books module (routes/books.js)
 
 app.listen(port, function() {
   console.log('We are running on port: ', port);

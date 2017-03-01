@@ -9,7 +9,8 @@ NOTE: If you have the code from lecture, just start from there.
 
 Download the zipped code from Github (link above). Or fork and then clone it.
 Run npm install to bring in all the node modules needed.
-Run the database.sql code in Postico in order to create the books table. It is expecting to be inside of a database called phi.
+Run the database.sql code in Postico in order to create the books table.
+It is expecting to be inside of a database called phi.
 Alter the books table
 Run the following query in Postico to add two new columns to our books table.
 
