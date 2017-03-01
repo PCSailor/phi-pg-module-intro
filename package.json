@@ -1,0 +1,25 @@
+{
+  "name": "philip-curtis",
+  "version": "1.0.0",
+  "description": "Assignment :: SQL Book Form Update Assignment Details https://github.com/LukeSchlangen/phi-pg-module-intro Node SQL Form Update Expand upon the form and database from lecture.",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Luke Schlangen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "pg": "^6.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCSailor/phi-pg-module-intro"
+  },
+  "bugs": {
+    "url": "https://github.com/PCSailor/phi-pg-module-intro/issues"
+  },
+  "homepage": "https://github.com/PCSailor/phi-pg-module-intro#readme"
+}
